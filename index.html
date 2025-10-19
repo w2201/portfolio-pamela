@@ -3,15 +3,50 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio • Pamela</title>
+  <title>Portfolio • Pamela Timi</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <main class="container">
-    <h1>Ciao! Sono Pamela</h1>
-    <p>Questo è il mio primo progetto pubblicato su GitHub da VS Code.</p>
-    <button id="counter">0 clic!</button>
+  <header class="header">
+    <h1>Pamela Timi</h1>
+    <nav>
+      <a href="#about">Chi sono</a>
+      <a href="#projects">Progetti</a>
+      <a href="#contact">Contatti</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about" class="card">
+      <h2>Chi sono</h2>
+      <p>
+        Ciao! Sono <strong>Pamela</strong>, sviluppatrice web in formazione e appassionata di tecnologia.  
+        Amo le sfide e creare soluzioni digitali utili e belle da vedere.
+      </p>
+    </section>
+
+    <section id="projects" class="card">
+      <h2>Progetti</h2>
+      <ul class="projects">
+        <li>
+          <h3>Mini Portfolio</h3>
+          <p>Primo progetto online con GitHub Pages, realizzato in HTML, CSS e JavaScript.</p>
+          <a href="https://w2201.github.io/portfolio-pamela/" target="_blank" class="btn">Vedi progetto</a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contatti</h2>
+      <p>📧 <a href="mailto:pamela@example.com">pamela@example.com</a></p>
+      <p>🐙 <a href="https://github.com/w2201" target="_blank">github.com/w2201</a></p>
+    </section>
   </main>
+
+  <footer>
+    © <span id="year"></span> Pamela Timi — Tutti i diritti riservati
+  </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
