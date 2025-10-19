@@ -1,6 +1,1 @@
-# Front-end base
-node_modules/
-dist/
-.vscode/
-.DS_Store
-*.log
+ Elimina contenuto file duplicato (.gitignore)
